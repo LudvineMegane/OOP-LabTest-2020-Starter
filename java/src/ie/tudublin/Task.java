@@ -52,6 +52,12 @@ public class Task
     {
         return this.end;
     }
+    
+    public String toString()
+    {
+        
+        return this.name + ","+ this.start + "," + this.end  ;
+    }
 
 
 }
